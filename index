@@ -25,6 +25,8 @@
   }
 </style>
 
+<body background="000.gif">
+
 <h2 class="red-text">CatPhotoApp</h2>
 
 <p>Click here for <a href="#">cat photos</a>.</p>

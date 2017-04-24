@@ -73,9 +73,9 @@ body {
     $("#target1").prop("disabled", true);
     $("#target4").remove();      
     $("#right-well").children().css("color", "orange");
-    $("#left-well").children().css("color", "green");
+    $("#left-well").children().css("color", "blue");
     $(".target:nth-child(2)").addClass("animated bounce");
-    $(".target:even").addClass("animated shake");
+    $(".target:even").addClass("animated bounce");
 
   });
 </script>
@@ -86,8 +86,8 @@ body {
     <div class="col-xs-6">
      
       <div class="well" id="left-well">
-        <button class="btn btn-default target" id="my instagram" src="https://www.instagram.com/lisa_.0606/">#instagram</button>
-        <button class="btn btn-default target" id="my github" src="https://github.com/YulingChang">#github</button>
+        <button class="btn btn-default target" id="my instagram" onclick="location.href='https://www.instagram.com/lisa_.0606/'" style="width:140px;height:30px;font-size:20px;">my instagram</button>
+        <button class="btn btn-default target" id="my github" onclick="location.href='https://github.com/YulingChang'" style="width:140px;height:30px;font-size:20px;">my github</button>
       </div>
     </div>
     <div class="col-xs-6">

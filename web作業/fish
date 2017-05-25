@@ -17,13 +17,6 @@ body {
      #picture{margin:0 5%;
      	position:relative;
   		left: 175px;}
-         p{width:100;
-      position:relative;
-      left: 175px;padding-right: 275px}
-      iframe{
-        position:relative;
-      left: 175px;padding-right: 5px
-      }
 </style>
 <head>
 	<h1>Feature Films</h1>
@@ -33,19 +26,18 @@ body {
 
 </head>
 <body>
-<a href="https://yulingchang.github.io/web%E4%BD%9C%E6%A5%AD/ourstory.html"><button class="w3-button w3-hover-black">Our Stroy</button></a>
+<button class="w3-button w3-hover-black">Our Stroy</button>
 <div class="w3-dropdown-hover">
     <button class="w3-button w3-hover-red">Film
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="w3-dropdown-content w3-bar-block">
-      <a href="https://yulingchang.github.io/web%E4%BD%9C%E6%A5%AD/feature.html" class="w3-bar-item w3-button">Feature Films</a>
-      <a href="https://yulingchang.github.io/web%E4%BD%9C%E6%A5%AD/short.html" class="w3-bar-item w3-button">Short Films</a>
+      <a href="#" class="w3-bar-item w3-button">Feature Films</a>
+      <a href="#" class="w3-bar-item w3-button">Short Films</a>
     </div>
   </div> 
-<a href="https://kuoweien.github.io/%E5%B0%88%E9%A1%8C%E7%B6%B2%E7%AB%99/comong%20soon.html"><button class="w3-button w3-hover-green">Coming Soon</button>
-<a href="https://kuoweien.github.io/%E5%B0%88%E9%A1%8C%E7%B6%B2%E7%AB%99/Contect%20With%20Us.html"><button class="w3-button w3-hover-yellow">Contect With Us</button></a>
-<a href="https://kuoweien.github.io/%E5%B0%88%E9%A1%8C%E7%B6%B2%E7%AB%99/web%E5%B0%88%E9%A1%8Cmain.html"><button class="w3-button w3-hover-blue">Back to home</button></a>
+<button class="w3-button w3-hover-green">Coming Soon</button>
+<button class="w3-button w3-hover-yellow">Contect With Us</button>
 <head>
 <meta charset="utf-8"></meta>
 </head>
